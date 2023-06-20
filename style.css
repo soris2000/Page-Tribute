@@ -1,0 +1,148 @@
+
+body {
+   /* background:rgb(30, 41, 62);*/
+   background:rgb(9, 24, 51);
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main {
+    margin: 10px;
+    padding-top:10px;
+}
+#title{
+    display:block;
+    font-size:2em;
+    margin-bottom: 0px;
+    font-weight:bold;
+}
+#subtitle{
+    margin-bottom: 50px;
+}
+
+#img-div{
+    background:rgb(30, 41, 62);
+    margin: 0;
+    padding:50px;
+    border-radius: 10px;
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+img:hover {
+    transform:scale(1.1);
+}
+#img-caption {
+ margin-top: 30px;
+ color:rgba(234, 240, 240, 0.959);
+ 
+}
+
+#title-characteristics{
+    margin-top:100px;
+    font-size:1.5em;
+}
+
+ul{
+    list-style-type: none;
+    text-align: left;
+    margin:0 50px;
+}
+li{
+    padding-bottom: 20px;
+}
+
+.li-title {
+    color:rgba(235, 31, 31, 0.877);
+    font-weight: bold;
+    font-size:1.5em;
+    
+}
+.li-title:hover{
+    color:#fff;
+    padding-left:30px;
+}
+.li-subtitle{
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(207, 228, 228, 0.918);
+}
+.li-description{
+    color:rgba(255, 255, 255, 0.87);
+}
+
+.stories{
+    margin-top: 30px;
+    margin-bottom:40px;
+    margin-left:75px;
+    margin-right:75px;
+    padding-top: 30px;
+    padding-bottom:30px;
+    border-radius: 10px;
+    border: #fff solid 2px;
+    color:#fff;
+}
+
+.stories-title{
+    padding: 0 20px;
+    font-size:1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(207, 228, 228, 0.918);
+}
+.stories-description{
+    padding: 0 20px;
+    font-style: oblique;
+    color:rgba(255, 255, 255, 0.87);
+}
+
+.more-link{
+    text-align:left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin:0 75px;
+}
+
+#tribute-link{
+    color:rgba(235, 31, 31, 0.877);
+    padding:5px;
+}
+
+#tribute-link:hover{
+    color:rgba(255, 251, 252, 0.877);
+   
+    border-radius: 2px;
+    
+}
+footer{
+    background:rgba(0, 0, 0, 0.685);
+    display: flex;
+    justify-content: center;
+}
+footer p{ 
+    font-size:15px;  
+    padding: 20px;
+}
+ @media (max-width:600px) {
+     ul{
+        margin: 0 auto;
+     }
+
+     .stories,.more-link{
+        margin-left: 20px;
+        margin-right:20px;
+     }
+
+     #img-div{
+        padding:20px;
+
+     }
+      
+ }
